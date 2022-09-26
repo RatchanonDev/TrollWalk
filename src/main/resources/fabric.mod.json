@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "trollwalk",
+  "version": "${version}",
+  "name": "TrollWalk",
+  "description": "Mod for walking on LiveOverFlow Minecraft Server",
+  "authors": [
+    "TinyWiFi"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://tinywifi.me",
+    "sources": "https://github.com/RatchanonDev/TrollWalk"
+  },
+  "license": "unlicense",
+  "icon": "assets/trollwalk/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.tinywifi.trollwalk.TrollWalk"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "trollwalk.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
